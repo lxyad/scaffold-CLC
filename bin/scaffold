@@ -40,7 +40,7 @@ class CLC {
   }
 
   sayLogo() {
-    cFonts.say('CLC', { colors: ['candy']})
+    setTimeout(() => cFonts.say('CLC', { colors: ['candy']}), 1000)
   }
 
   getTemplatePath(filepath) {
